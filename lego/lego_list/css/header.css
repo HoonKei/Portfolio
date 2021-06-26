@@ -1,0 +1,73 @@
+
+.nav{
+    height: 8vh;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    border-bottom: 1px solid #f4f4f4;
+    }
+    
+    .nav .logo{
+        background: url(../img/logo.png) no-repeat center;
+        width: 64px;
+        height: 64px;
+        text-indent: -9999px;
+        position: absolute;
+        left: 261px;
+        top: 8%;
+    }
+    
+    .nav_left{
+        position: absolute;
+        left: 22%;
+        top: 28px;
+    
+    }
+    
+    .nav_left li{
+        float: left;
+        padding-right: 80px;
+    }
+    
+    .nav_left li:hover a{
+        color: #288FCF;
+    }
+    
+    .nav_left li a{    
+        display: block;
+        font-family: "Noto Sans KR", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+    
+        color: rgba(44, 44, 44, 1);
+    }
+    
+    #menu_active{
+        color: #288FCF;
+    }
+    
+    
+    .nav_right{
+        position: absolute;
+        right: 261px;
+        top: 28px;
+    }
+    
+    .nav_right li{
+        float: left;
+        padding-left: 44px;
+    }
+    
+    .nav_right li:hover a{
+        color: #288FCF;
+    }
+    
+    .nav_right li a{
+        display: block;
+        font-size: 24px;
+        line-height: 24px;
+        color: rgba(44, 44, 44, 1);
+    }
+    
+    

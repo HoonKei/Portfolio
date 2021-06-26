@@ -1,0 +1,67 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+@font-face{
+    src: url(/TGIF/fonts/GothamPro.ttf);
+    font-family: "Gotham";
+}
+
+@font-face{
+    src: url(/TGIF/fonts/StencilStd.otf);
+    font-family: "StencilStd";
+}
+
+input:focus, select:focus, option:focus, textarea:focus, button:focus{
+	outline: none;} /* 클릭시 생기는 테두리박스 없애기 */
+
+body{
+    font: 12px /1.4 "Noto Sans KR", arial, "맑은 고딕", sans-serif;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+
+    background-color: black;
+}
+
+body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+
+.clearfix{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+.container{
+    width: 1132px;
+    margin: 0 auto;
+}
+
+@media all and (max-width:1132px) { 
+    
+    .container{
+        width: 604px;
+        margin: 0 auto;
+    }
+}    
+
+@media all and (max-width:640px){
+
+    .container{
+        width: 280px;
+        margin: 0 auto;
+    }
+}    
+
+
+/* 이미지 안깨지게 */
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+

@@ -1,0 +1,298 @@
+
+/* ------------------------------------------------sec4 */
+
+
+.sec4{
+    height: 536px;
+    position: relative;
+
+}
+
+.sec4_titbox{
+    background-color: red;
+    width: 368px;
+    height: 62px;
+
+    position: absolute;
+    top: 204px;
+    left: 116px;
+}
+
+.sec4_tit{
+    color: red;
+    font-family: "StencilStd", Helvetica;
+    font-size: 48px;
+    line-height: 68px;
+    font-weight: 700;
+
+    position: absolute;
+    top: 140px;
+}
+
+
+.sec4_tit .sec4_what{
+    color: white;
+}
+
+
+.sec4_sub{
+    font-weight: bold;
+    font-size: 16px;
+    color: rgba(255,255,255,1);
+    letter-spacing: -0.2px;
+
+    line-height: 28px;
+    text-align: left;
+
+    position: absolute;
+    top: 180px;
+    left: 576px;
+}
+
+
+
+.sec4_btnWrap{
+    position: absolute;
+    top: 320px;
+}
+
+.sec4_btnWrap li{
+    float: left;
+}
+
+.sec4_morebtn{
+    background: url(/TGIF/img/sec4_btn.png) no-repeat center;
+    width: 64px;
+    height: 64px;
+}
+
+.btntxt{    
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    letter-spacing: -0.2px;
+    margin: 10px 0px 0 20px;
+}
+
+
+.sec4_infotit{
+    position: absolute;
+    top:325px;
+    left: 576px;
+}
+
+.sec4_infotit li{
+    float: left;
+    margin-right: 57px;
+
+    text-align: left;
+    font-size: 14px;
+    color: rgba(225,225,225,1);
+}
+
+.sec4_infotxt{
+    position: absolute;
+    top: 350px;
+    left: 576px;
+}
+.sec4_infotxt li{
+    float: left;
+
+    font-weight: bold;
+    font-size: 24px;
+    color: rgba(255,0,0,1);
+    letter-spacing: -0.2px;
+
+    margin-right: 24px;
+}
+.sec4_infotxt span{
+    color: white;
+}
+
+
+
+@media all and (max-width:1132px) {
+    .sec4_tit{
+        position: absolute;
+        top: 120px;
+    }
+    .sec4_titbox{
+        background-color: red;
+        width: 368px;
+        height: 62px;
+    
+        position: absolute;
+        top: 184px;
+        left: 116px;
+    }
+    .sec4_sub{
+        font-weight: bold;
+        font-size: 16px;
+        color: rgba(255,255,255,1);
+        letter-spacing: -0.2px;
+    
+        line-height: 28px;
+        text-align: left;
+    
+        position: absolute;
+        top: 320px;
+        left: 0px;
+    }
+
+    .sec4_btnWrap{
+        position: absolute;
+        top: 460px;
+    }
+    
+    .sec4_btnWrap li{
+        float: left;
+    }
+    
+    .sec4_morebtn{
+        background: url(/TGIF/img/sec4_btn.png) no-repeat center;
+        width: 64px;
+        height: 64px;
+    }
+    
+    .btntxt{    
+        font-weight: bold;
+        font-size: 16px;
+        color: white;
+        letter-spacing: -0.2px;
+        margin: 10px 0px 0 20px;
+    }
+    
+    
+    .sec4_infotit{
+        position: absolute;
+        top:464px;
+        left: 247px;
+    }
+    
+    .sec4_infotit li{
+        float: left;
+        margin-right: 57px;
+    
+        text-align: left;
+        font-size: 14px;
+        color: rgba(225,225,225,1);
+    }
+
+    .sec4_infotit li:last-child{
+        margin-right: 0;
+    }
+    
+    .sec4_infotxt{
+        position: absolute;
+        top: 492px;
+        left: 246px;
+    }
+    .sec4_infotxt li{
+        float: left;
+    
+        font-weight: bold;
+        font-size: 24px;
+        color: rgba(255,0,0,1);
+        letter-spacing: -0.2px;
+    
+        margin-right: 24px;
+    }
+    .sec4_infotxt li:last-child{
+        margin-right: 0;
+    }
+
+}
+
+
+@media all and (max-width:640px){
+    .sec4_tit{
+        color: red;
+        font-family: "StencilStd", Helvetica;
+        font-size: 32px;
+        line-height: 52px;
+        font-weight: 700;
+    
+        position: absolute;
+        top: 140px;
+    }
+    .sec4_and{
+        display: none;
+    }
+    .sec4_titbox{
+        background-color: red;
+        width: 252px;
+        height: 52px;
+    
+        position: absolute;
+        top: 188px;
+        left: -12px;
+    }
+
+   
+    .sec4_infotit{
+        position: absolute;
+        top:288px;
+        left: 0px;
+    }   
+
+    .sec4_infotit li{
+        float: left;
+        margin-right: 57px;
+    
+        text-align: left;
+        font-size: 14px;
+        color: rgba(225,225,225,1);
+    }
+
+
+
+    .sec4_infotit li:last-child{
+        margin-right: 0;
+        margin-top: 56px;
+    }
+
+    .sec4_infotxt{
+        position: absolute;
+        top: 312px;
+        left: 0px;
+    }
+    .sec4_infotxt li{
+        float: left;
+    
+        font-weight: bold;
+        font-size: 24px;
+        color: rgba(255,0,0,1);
+        letter-spacing: -0.2px;
+    
+        margin-right: 24px;
+    }
+    .sec4_infotxt li:last-child{
+        margin-right: 0;
+        margin-top: 42px;
+    }
+
+
+    .sec4_sub{
+        font-weight: bold;
+        font-size: 16px;
+        color: rgba(255,255,255,1);
+        letter-spacing: -0.2px;
+    
+        line-height: 28px;
+        text-align: left;
+    
+        position: absolute;
+        width: 260px;
+        top: 452px;
+        left: 0px;
+    }
+
+    .sec4_fri{
+        display: none;
+    }
+    .sec4_btnWrap{
+        position: absolute;
+        top: 600px;
+        right: 0;
+    }
+}

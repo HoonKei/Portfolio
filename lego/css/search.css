@@ -1,0 +1,357 @@
+
+/* ㅡㅡㅡㅡㅡㅡㅡ서치바ㅡㅡㅡㅡㅡㅡㅡ */
+
+.MainSrcWrap {
+    position: absolute;
+    top: 910px;
+    left: 198px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 48px rgba(1, 1, 1, 0.239);
+    height: 300px;
+    width: 1524px;
+    z-index: 2;
+  }
+
+.MainSrc{
+    position: relative;
+}
+
+
+
+
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡ 구분선ㅡㅡㅡㅡㅡㅡㅡㅡ  */
+
+
+.SrcLine_1 {
+    position: absolute;
+    width: 1524px;
+    height: 1px;
+    top: 126px;
+    background-color: #CFCFCF;
+}
+
+
+.SrcLine_2 {
+    position: absolute;
+    width: 1524px;
+    height: 1px;
+    top: 188px;
+    background-color: #CFCFCF;
+}
+
+.SrcLine_V1 {
+    position: absolute;
+    width: 1px;
+    height: 112px;
+
+    top: 188px;
+    left: 354px;
+    background-color: #CFCFCF;
+}
+
+.SrcLine_V2 {
+    position: absolute;
+    width: 1px;
+    height: 112px;
+
+    top: 188px;
+    left: 654px;
+    background-color: #CFCFCF;
+}
+
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡ 첫째 단ㅡㅡㅡㅡㅡㅡㅡㅡ  */
+
+
+.Src_textWrap{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.28px;
+    line-height: 12px;
+    text-align: center;
+}
+.Src_text{
+    position: absolute;
+    top: 12px;
+    left: 83.5px;
+}
+.Srcfigure{
+	background: url('/lego/img/SrcFigure.png')
+}
+.fg1{
+    background-repeat: no-repeat;
+    background-position: 0px -1px;
+	width: 40px;
+	height: 37px;
+    margin-bottom: 8px;
+}
+.fg2{
+    background-repeat: no-repeat;
+    background-position: -112px 0px;
+	width: 36px;
+	height: 39px;
+    margin-bottom: 7px;
+}
+.fg3{
+    background-repeat: no-repeat;
+    background-position: -220px 1px;
+	width: 38px;
+	height: 37px;
+    margin-bottom: 8px;
+}
+.fg4{
+    background-repeat: no-repeat;
+    background-position: -332px -1px;
+	width: 36px;
+	height: 35px;
+    margin-bottom: 10px;
+}
+.fg5{
+    background-repeat: no-repeat;
+    background-position: -438px -1px;
+	width: 40px;
+	height: 36px;
+    margin-top: 2px;
+    margin-bottom: 6px;
+}
+.fg6{
+    background-repeat: no-repeat;
+    background-position: -546px -3px;
+	width: 44px;
+	height: 33px;
+    margin-top: 3px;
+    margin-bottom: 8px;
+}
+.fg7{
+    background-repeat: no-repeat;
+    background-position: -662px 0px;
+	width: 36px;
+	height: 39px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+.fg8{
+    background-repeat: no-repeat;
+    background-position: -772px 0px;
+	width: 36px;
+	height: 37px;
+    margin-top: 1px;
+    margin-bottom: 6px;
+}
+.Src_text li{
+    float: left;
+    color: rgba(133,133,133,1);
+    margin: 26px 30px;
+    text-align: center;
+}
+
+.Src_text li:nth-child(1){
+    margin-left: 0;
+    color: white;
+    position: absolute;
+    z-index: 999;
+}
+
+.Src_text li:nth-child(2){
+    margin-left: 110px;
+}
+
+.fg1box{
+    position: absolute;
+    top: 26px;
+    left: 63px;
+    width: 80px;
+    height: 80px;
+
+    fill: rgba(40,143,207,1);
+    stroke: rgba(112,112,112,1);
+    stroke-width: 1px;
+}
+
+
+
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡ 둘째 단ㅡㅡㅡㅡㅡㅡㅡㅡ  */
+
+.Src_sexWrap{
+    position: absolute;
+    left: 63px;
+    top: 137px;
+}
+
+.Src_sex{
+    position: relative;
+}
+
+.Src_sexBox{
+    overflow: visible;
+    width: 300px;
+    height: 40px;
+    background-color: rgba(235,235,235,1);
+    border-radius: 10px;
+}
+
+#Src_sexBox{
+    fill: rgba(235,235,235,1);
+}
+
+.Src_sexBoxActive{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#Src_sexBoxActive{
+    fill: rgba(40,143,207,1);
+}
+
+.Src_sexText {
+    position: absolute;
+    top: 12px;
+    left: 38px;
+}
+
+.Src_sexText {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.28px;
+    line-height: 14px;
+}
+
+.Src_sexText li{
+    float: left;
+}
+
+.Src_sexText li:first-child{
+    color: white;
+    font-weight: 500;
+    margin-right: 68px;
+}
+
+.Src_sexText li:nth-child(2){
+    margin-right: 62px;
+}
+
+
+
+
+
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡ 셋째 단ㅡㅡㅡㅡㅡㅡㅡㅡ  */
+
+
+.Src_detailTitle{
+    position: absolute;
+    top: 213px;
+    left: 83.5px;
+}
+
+.Src_detailTitle li{
+    float: left;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+
+    letter-spacing: -0.28px;
+    line-height: 12px;
+
+    color: rgba(139, 139, 139, 1);
+}
+
+.Src_detailTitle li:first-child{
+    margin-right: 263px;
+}
+
+.Src_detailTitle li:nth-child(2){
+    margin-right: 274px;
+}
+
+.Src_detailTitle li:nth-child(3){
+    color: rgba(44, 44, 44, 1);
+}
+
+.Src_detailText{
+    position: absolute;
+    top: 250px;
+    left: 83.5px;
+}
+
+.Src_detailText li{
+    float: left;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+
+    letter-spacing: -0.28px;
+    line-height: 12px;
+
+    color: rgba(44, 44, 44, 1);
+}
+
+.Src_detailText li:first-child{
+    margin-right: 243px;
+}
+
+.Src_hashtag{
+    position: absolute;    
+    top: 244px;
+    left: 684px;
+}
+
+.Src_hashtag li{
+    float: left;
+    margin: 6px 5px;
+}
+
+.Src_hashtag li a:hover{
+    background-color: rgba(40,143,207,1);
+    border: 1px solid rgba(40,143,207,1);
+    color: white;
+}
+
+.Src_hashtag li:first-child{
+    margin-left: 0;
+}
+
+.Src_hashtag li a{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+
+    letter-spacing: -0.28px;
+    line-height: 12px;
+
+    color: rgba(139, 139, 139, 1);    
+
+    padding: 5px 21px 6px 21px;
+    border: 1px solid #CFCFCF;
+    border-radius: 16px;
+}
+
+
+.Src_button{
+    position: absolute;
+    right: 0;
+    top: 187px;
+    width: 163px;
+    height: 113px;
+    background-color: rgba(40,143,207,1);
+    border-radius: 0 0 9px 0;
+    box-sizing: border-box;
+}
+
+.Src_button p{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+
+    text-align: center;
+    letter-spacing: -0.3px;
+    line-height: 12px;
+
+    color: white;
+
+    padding: 50px 64px;
+}

@@ -1,0 +1,229 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+body{
+    font: 12px /1.4 "Noto Sans KR", arial, "맑은 고딕", sans-serif;}
+
+.clearfix{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* ----------------------------- 전체 default */
+.conWrap{
+    width:1920px;
+    height:3000px;
+    background-color: #F9F9F9;
+}
+.container{
+    position: relative;
+    width:1398px;
+    margin: 0 auto;
+}
+
+/* ----------------------------- 타이틀 */
+ul.list_title{
+    padding-top: 60px;
+    display: block;
+}
+ul.list_title li{
+    float:left;
+}
+
+h1.title{
+    font-family: "Noto Sans KR";
+    color: #2C2C2C;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: -1.04px;
+}
+h4.list_count{
+    font-family: "Noto Sans KR";
+    color: #8B8B8B;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.30px;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+/* ----------------------------- 필터 */
+ul.list_filter{
+    padding-top: 8px;
+}
+ul.list_filter li{
+    float: right;
+    height: 56px;
+    width: 218px;
+
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    margin-left: 18px;
+
+    position: relative;
+}
+ul.list_filter li p{
+    display: inline-block;
+    font-family: "Noto Sans KR";
+    font-size: 15px;
+    font-weight:400;
+    letter-spacing: -0.30px;
+    padding-top: 16px;
+    padding-left: 24px;
+    color: #2C2C2C;
+}
+#filterBtn{
+    display: block;
+    position: absolute;
+    right: 24px;
+    bottom: 24px;
+}
+/* ----------------------------- 카테고리Btn */
+ul.categoryBtn{
+    margin-top: 88px;
+}
+ul.categoryBtn li{
+    float:left;
+    padding-right: 12px;
+}
+ul.categoryBtn li:nth-child(2n){
+    padding-top: 2px;
+}
+ul.categoryBtn li a{
+    display: block;
+    font-family: "Noto Sans KR";
+    color: #8B8B8B;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.30px;
+}
+
+/* ----------------------------- 카테고리필터버튼 */
+ul.filterBtnMore{
+    padding-left: 472px;
+}
+ul.filterBtnMore li:first-child{
+    width: 110px;
+    height: 34px;
+    background-color: #288FCF;
+    border-radius: 17px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    text-align: center;
+    line-height: 32px;
+    font-weight: 500;
+    color: white;
+}
+ul.filterBtnMore li{
+    display: inline-block;
+    margin-left: 33px;
+    margin-right: 33px;
+
+    font-family: "Noto Sans KR";
+    font-size: 15px;
+    font-weight:400;
+    letter-spacing: -0.30px;
+    color: #2C2C2C;
+}
+
+
+/* ----------------------------- 리스트 */
+ul.list{
+    margin-top: 42px;
+}
+ul.list li{
+    float: left;
+    width: 454px;
+    height: 592px;
+    border-radius: 12px;
+    margin-right: 18px;
+    margin-bottom: 24px;
+    background-color: #EBEBEB;
+
+    position: relative;
+}
+
+ul.list li:nth-child(3n){
+    margin-right: 0px;
+}
+
+i.xi-heart-o{
+    font-size: 26px;
+    color: #8B8B8B;
+    padding: 15px 0px 0px 20px;
+}
+.listCategory_s{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 152px;
+    height: 56px;
+    background-color: #288FCF;
+    border-radius: 0 12px 0 0;
+
+    font-family: "Noto Sans KR";
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: -0.30px;
+    text-align: center;
+    line-height: 56px;
+    color: white;
+}
+.listCategory_n{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 152px;
+    height: 56px;
+    background-color: #CFCFCF;
+    border-radius: 0 12px 0 0;
+
+    font-family: "Noto Sans KR";
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: -0.30px;
+    text-align: center;
+    line-height: 56px;
+    color: white;
+}
+.listPic{
+    margin-top: 25px;
+}
+.list_detail{
+    position: absolute;
+    bottom: 0;
+    width: 454px;
+    height: 164px;
+    background-color: white;
+    border-radius: 0 0 12px 12px;   
+}
+.list_detail p{
+    text-align: center;
+}
+.list_title{
+    padding-top: 30px;
+
+    font-family: "Noto Sans KR";
+    font-size: 16px;
+    font-weight:600;
+    letter-spacing: -0.32px;
+    color: #2C2C2C;
+}
+.list_subtit{
+    padding-top: 12px;
+    font-family: "Noto Sans KR";
+    font-size: 13px;
+    font-weight:400;
+    letter-spacing: -0.26px;
+
+    color: #8B8B8B;
+}
+.list_price{
+    padding-top: 20px;
+    font-family: "Noto Sans KR";
+    font-size: 18px;
+    font-weight:600;
+    letter-spacing: -0.26px;
+
+    color: red;
+}

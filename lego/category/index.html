@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>전체 카테고리</title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/xeicon.css">
+    <script type="text/javascript" src="js/JQuery3.3.1.js"></script>
+</head>
+<body>
+
+    <!-- nav -->
+
+    <nav class="nav clearfix">
+        <h1 class="logo"><a href="//asdfaa1234.dothome.co.kr/lego/">logo</h1></a>
+        <ul class="nav_left">
+            <li><a href="#" id="menu_active">카테고리</a></li>
+            <li><a href="//asdfaa1234.dothome.co.kr/lego_list/">베스트</a></li>
+            <li><a href="//asdfaa1234.dothome.co.kr/lego_list/">신제품</a></li>
+            <li><a href="#">커뮤니티</a></li>
+            <li><a href="#">고객센터</a></li>
+        </ul>
+        <ul class="nav_right">
+            <li><a href="#"><i class="xi-heart"></i></a></li>
+            <li><a href="#"><i class="xi-basket"></i></a></li>
+            <li><a href="#"><i class="xi-profile"></i></a></li>
+        </ul>
+
+    </nav>
+
+    <div class="container">
+    <section class="sec_left">
+        <ul class="sec_menu tabs">
+            <li class="tab-link current" data-tab="tab-1"><a href="#">전체</a></li>
+            <li class="tab-link" data-tab="tab-2"><a href="#">베이직</a></li>
+            <li class="tab-link" data-tab="tab-3"><a href="#">키즈</a></li>
+            <li class="tab-link" data-tab="tab-4"><a href="#">히어로</a></li>
+            <li class="tab-link" data-tab="tab-5"><a href="#">TV/영화</a></li>
+            <li class="tab-link" data-tab="tab-6"><a href="#">오리지널</a></li>
+            <li class="tab-link" data-tab="tab-7"><a href="#">창작</a></li>
+            <li class="tab-link" data-tab="tab-8"><a href="#">게임</a></li>
+        </ul>
+    </section>
+
+        <div class="conwrap">
+        <div id="tab-1" class="tab-content current">
+            <img src="img/category_2.png" alt="#"></div>
+        <div id="tab-2" class="tab-content">
+            <img src="img/category_0.png" alt="#"></div>
+        <div id="tab-3" class="tab-content">
+            <img src="img/category_3.png" alt="#"></div>
+        <div id="tab-4" class="tab-content">
+            <img src="img/category_4.png" alt="#"></div>
+        <div id="tab-5" class="tab-content">
+            <img src="img/category_5.png" alt="#"></div>
+        <div id="tab-6" class="tab-content">
+            <img src="img/category_6.png" alt="#"></div>
+        <div id="tab-7" class="tab-content">
+            <img src="img/category_7.png" alt="#"></div>
+        <div id="tab-8" class="tab-content">
+            <img src="img/category_8.png" alt="#"></div>
+        </div>
+    
+</div> <!--container-->
+    
+</body>
+
+<script>
+    $(document).ready(function(){
+	
+	$('ul.tabs li').mouseover(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
+</script>
+</html>

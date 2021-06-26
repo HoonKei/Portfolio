@@ -1,0 +1,102 @@
+
+.swiper-wrapper{
+    width:100%; height:auto; background-color: black; 
+}
+
+.swiper-slide{
+    width:100%;
+    height: auto;
+    color:#fff; overflow: hidden;
+}
+
+.swiper-slide.one{
+    background:url(/TGIF/img/Main_banner_1.png) no-repeat center;
+    background-size: cover;
+    background-color: black;
+    height: 760px;}
+
+
+
+.swiper-slide.two{background-color: black;}
+
+.swiper-slide #video-background{
+    display: block;
+    position: relative;
+    width: auto;
+    height: 760px;   
+}
+
+.swiper-button-next{
+    color: #c4c4c4 !important;
+    
+}
+
+.swiper-button-prev{
+    color: #c4c4c4 !important;
+}
+
+
+
+
+@media all and (max-width:1132px) {
+
+    .swiper-slide{height: 700px;}
+    .swiper-slide.one{
+        background: url(/TGIF/img/banner_tab.jpg) no-repeat center;
+        background-size: cover;
+        background-color: black;
+        height: 700px;
+    }
+    .swiper-slide #video-background{
+        width: auto;
+        height: 700px !important;
+        left: -40%;
+    }
+}
+
+
+
+@media all and (max-width:860px) {
+    .MainWrap{
+        padding-top: 76px;
+    }
+    .swiper-slide #video-background{
+        left: -65%;
+    }
+
+}
+
+
+@media all and (max-width:640px) {
+    .MainWrap{
+        padding-top: 76px;
+    }
+
+    
+    .swiper-slide{height: 400px;}
+    .swiper-slide.one{
+        background: url(/TGIF/img/banner_tab.jpg) no-repeat center;
+        background-size: cover;
+        background-color: black;
+        height: 400px;
+    }
+    .swiper-slide #video-background{
+        width: auto;
+        height: 400px !important;
+        left: -52%;
+    }
+}
+
+@media all and (max-width:400px){
+    .swiper-slide.one{
+        background: url(/TGIF/img/banner_mobile.jpg) no-repeat center;
+        background-size: cover;
+        width: 100%;
+        }
+
+    .swiper-slide #video-background{
+        width: 300%;
+        height: 400px !important;
+        left: -70%;
+    }
+}

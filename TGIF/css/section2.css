@@ -1,0 +1,117 @@
+
+.sec2_video{
+    background: url(/TGIF/img/videoIMG.png) no-repeat center;
+    width: 100%;
+    height: 820px;
+    position: relative;
+}
+
+.sec2_video >p{
+    padding-top: 261px;
+
+    text-align: center;
+    font-family: 'Gotham';
+    font-size: 16px;
+    color: rgba(225,225,225,1);
+    line-height: 30px;
+
+}
+
+.sec2_video >h2{
+    text-align: center;
+    font-family: 'Stencil Std';
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+}
+
+.sec2_video >h2>span{
+    color: red;
+}
+
+.videobtn{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-32%);
+
+    background: url(/TGIF/img/VideoPlayBtn.png) no-repeat center;
+    width: 80px;
+    height: 120px;
+}
+
+
+
+
+@media all and (max-width:1132px) {
+    .sec2_video{
+        background: url(/TGIF/img/videoMob.png) no-repeat center;
+        background-size: 100%;
+        height: 600px;
+        position: relative;
+    }
+    .sec2_video >p{
+        padding-top: 120px;
+    
+        text-align: center;
+        font-family: 'Gotham';
+        font-size: 16px;
+        color: rgba(225,225,225,1);
+        line-height: 30px;
+    }
+    .sec2_video >h2{
+        text-align: center;
+        font-family: 'Stencil Std';
+        font-weight: bold;
+        font-size: 48px;
+        color: white;
+    }
+    .sec2_video >h2>span{
+        color: red;
+    }
+    .videobtn{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-32%);
+    
+        background: url(/TGIF/img/VideoPlayBtn.png) no-repeat center;
+        background-size: cover;
+
+        width: 80px;
+        height: 120px;
+    }
+}
+
+
+@media all and (max-width:640px){
+    .sec2_video{
+        background: url(/TGIF/img/videoMob.png) no-repeat center;
+        background-size: 100%;
+        height: 360px;
+        position: relative;
+    }
+    .sec2_video >p{
+        display: none;
+    }
+    .sec2_video >h2{
+        padding-top: 60px;
+        text-align: center;
+        font-family: 'Stencil Std';
+        font-weight: bold;
+        font-size: 32px;
+        color: white;
+    }
+    .videobtn{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-32%);
+    
+        background: url(/TGIF/img/VideoPlayBtn.png) no-repeat center;
+        background-size: cover;
+        width: 80px;
+        height: 120px;
+
+    }
+}

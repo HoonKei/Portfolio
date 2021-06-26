@@ -1,0 +1,129 @@
+
+.footerWrap{
+    background-color: black;
+
+    position: relative;
+    height: 140px;
+}
+.footerL{
+    position: absolute;
+    left: 5%;
+}
+.footerL li{
+    float: left;
+    margin-top: 40px;
+}
+.footerL h2{
+    background: url(/TGIF/img/logo_bk.png) no-repeat center;
+    width: 120px;
+    height: 64px;
+}
+.footerL li:nth-child(2){
+    font-family: 'Gotham';
+    font-size: 14px;
+    color: white;
+
+    padding: 24px;
+}
+
+.footerL li:nth-child(3){
+    font-family: 'Gotham';
+    font-size: 14px;
+    color: white;
+
+    padding-top: 24px;
+}
+
+.footerR{
+    position: absolute;
+    right: 5%;
+}
+.footerR li{
+    padding-top: 52px;
+    float: left;
+    padding-left: 20px;
+}
+.footer_in{
+    display: block;
+    background-image: url(/TGIF/img/footer_1.png);
+    width: 40px;
+    height: 40px;
+}
+.footer_star{
+    display: block;
+    background-image: url(/TGIF/img/footer_2.png);
+    width: 40px;
+    height: 40px;
+}
+.footer_tweet{
+    display: block;
+    background-image: url(/TGIF/img/footer_3.png);
+    width: 40px;
+    height: 40px;
+}
+.footer_face{
+    display: block;
+    background-image: url(/TGIF/img/footer_4.png);
+    width: 40px;
+    height: 40px;
+}
+
+
+
+@media all and (max-width:1132px){   
+    .footerWrap{
+        background-color: black;
+        position: relative;
+        height: 140px;
+    }
+    .footerL li:nth-child(2){
+        font-family: 'Gotham';
+        font-size: 14px;
+        color: white;
+        position: absolute;
+        top: -8px;
+        left: 120px;
+        width: 140px;
+    }
+    
+    .footerL li:nth-child(3){
+        font-family: 'Gotham';
+        font-size: 14px;
+        color: white;
+        position: absolute;
+        top: 11px;
+        left: 144px;
+        width: 320px;
+    }
+
+}
+
+
+
+@media all and (max-width:640px){
+    .footerL{
+        position: absolute;
+        left: 10%;
+    }
+    .footerR{
+        position: absolute;
+        right: 10%;
+    }
+    .footerL li:nth-child(2){
+        display: none;
+    }
+    .footerL li:nth-child(3){
+        display: none;
+    }
+    .footerR li:nth-child(3){
+        display: none;
+    }
+    .footerR li:nth-child(4){
+        display: none;
+    }
+}
+
+@media all and (max-width:400px){
+    
+
+}

@@ -1,0 +1,173 @@
+
+/* ㅡㅡㅡㅡㅡㅡㅡㅡ 섹션 6  뉴스ㅡㅡㅡㅡㅡㅡㅡ  */
+
+
+.sec6{
+    position: absolute;
+    top: 3660px;
+    left: 198px;
+}
+
+
+.sec6_conWrap{
+    position: relative;
+    width: 1525px;
+}
+
+.Newsbg{
+    position:absolute;
+}
+
+.sec6_tit{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    text-align: right;
+    letter-spacing: -1.73px;
+    line-height: 52px;
+    color: white;
+
+    position: absolute;
+    right: 64px;
+    top: 106px;
+}
+
+.sec6_moreBtn{
+    position: absolute;
+    top: 264px;
+    right: 0;
+
+    width: 191px;
+    height: 73px;
+    fill: rgba(255,255,255,1);
+}
+
+.sec6_moreBtntext{
+    position: absolute;
+    top: 288px;
+    right: 64px;
+
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(44,44,44,1);
+    transition: all 0.6s ease;
+}
+
+
+.sec6_BtnWrap:hover .sec6_moreBtntext{
+    display: block;
+    transform: translate(-16px,0);
+    color: #288FCF;
+}
+
+
+.date{
+    position: absolute;
+    top: 124px;
+    left: 64px;
+
+    background-color: #288FCF;
+    width: 82px;
+    height: 38px;
+
+    font-size: 13px;
+    font-weight: 700;
+
+    text-align: center;
+    color: white;
+    line-height: 38px;
+}
+
+
+
+
+.sec6_textbox{
+    position: absolute;
+    top: 193px;
+    left: 64px;
+}
+
+.sec6_textbox .texthead{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.32px;
+    color: rgba(44, 44, 44, 1);;
+}
+
+.sec6_textbox .textdetail{
+    margin-top: 16px;
+
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: -0.26px;
+    color: rgba(139, 139, 139, 1);;
+}
+
+.sec6_textbox .textmore{
+    margin-top: 36px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.32px;
+    color: rgba(44, 44, 44, 1);;
+
+    text-decoration: underline;
+}
+
+
+
+.date2{
+    position: absolute;
+    top: 124px;
+    left: 602px;
+
+    background-color: #288FCF;
+    width: 82px;
+    height: 38px;
+
+    font-size: 13px;
+    font-weight: 700;
+
+    text-align: center;
+    color: white;
+    line-height: 38px;
+}
+
+
+
+.sec6_textbox2{
+    position: absolute;
+    top: 193px;
+    left: 602px;
+}
+
+
+.sec6_textbox2 .texthead{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.32px;
+    color: rgba(44, 44, 44, 1);;
+}
+
+.sec6_textbox2 .textdetail{
+    margin-top: 16px;
+
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: -0.26px;
+    color: rgba(139, 139, 139, 1);;
+}
+
+
+.sec6_textbox2 .textmore{
+    margin-top: 36px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.32px;
+    color: rgba(44, 44, 44, 1);;
+
+    text-decoration: underline;
+}
+
+.sec6_textbox2 .textmore:hover{
+    color: #288FCF;
+}

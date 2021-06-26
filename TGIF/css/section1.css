@@ -1,0 +1,345 @@
+
+
+
+.sec1{
+    height: 580px;
+    position: relative;
+}
+
+.sec1_tit{
+    color: red;
+    font-family: "StencilStd", Helvetica;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+
+    position: absolute;
+    top: 100px;
+}
+
+
+.sec1_sub{
+    position: absolute;
+    top: 100px;
+    left: 692px;
+
+    font-family: 'NotoSans CJK KR';
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: -0.2px;
+    color: white;
+}
+
+.sec1_bar{
+    background-image: url(/TGIF/img/sec1_bar.png);
+    width: 4px;
+    height: 48px;
+    
+    position: absolute;
+    top: 102px;
+    left: 668px;
+}
+ul.sec1_conWrap li{    
+    padding-top: 210px;
+    top: 210px;
+    width: 25%;
+    height: 319px;
+
+    float: left;
+    box-sizing: border-box;
+
+    color: white;
+    text-align: center;
+
+    /* background-color: red; */
+}
+
+ul.sec1_conWrap li:last-child{
+    margin-right: 0;
+}
+
+/* ------------------------------ICON */
+.con_art1{
+    display: inline-block;
+    background: url(/TGIF/img/sec1_con1.png) no-repeat center center;
+    width: 80px;
+    height: 64px;
+
+    margin-top: 63px;
+}
+
+.con_art2{
+    display: inline-block;
+    background: url(/TGIF/img/sec1_con2.png) no-repeat center center;
+    width: 56px;
+    height: 80px;
+
+    margin-top: 46px;
+}
+
+.con_art3{
+    display: inline-block;
+    background: url(/TGIF/img/sec1_con3.png) no-repeat center center;
+    width: 62px;
+    height: 78px;
+
+    margin-top: 49px;
+}
+
+.con_art4{
+    display: inline-block;
+    background: url(/TGIF/img/sec1_con4.png) no-repeat center center;
+    width: 52px;
+    height: 90px;
+
+    margin-top: 37px;
+}
+
+
+/* ------------------------------title&text */
+
+.con_tit{
+    display: block;
+    color: #FF6161;
+    font-family: "StencilStd", Helvetica;
+    font-size: 16px;
+
+    padding-top: 24px;
+}
+
+.con_txt{
+    display: block;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+
+
+@media all and (max-width:1132px) {   
+
+.sec1{
+    height: 920px;
+    position: relative;
+}
+
+.sec1_tit{
+    font-family: "StencilStd", Helvetica;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+
+    position: absolute;
+    top: 120px;
+    left: 0
+}
+
+
+.sec1_sub{
+    position: absolute;
+    top: 740px;
+    left: 120px;
+
+    text-align: center;
+    font-family: 'NotoSans CJK KR';
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: -0.2px;
+    color: white;
+}
+
+.sec1_bar{
+    background-image: url(/TGIF/img/sec1_bar.png);
+    width: 4px;
+    height: 48px;
+    
+    position: absolute;
+    top: 744px;
+    left: 0px;
+}
+
+
+ul.sec1_conWrap li{    
+    padding-top: 200px;
+    top: 210px;
+    width: 50%;
+    height: 319px;
+
+    float: left;
+    box-sizing: border-box;
+
+    color: white;
+    text-align: center;
+
+    /* background-color: red; */
+}
+
+ul.sec1_conWrap li:nth-child(3){
+    padding-top: 120px;
+}
+ul.sec1_conWrap li:nth-child(4){
+    padding-top: 120px;
+}
+
+
+}
+
+
+@media all and (max-width:640px){ 
+    .sec1{
+        height: 720px;
+        position: relative;
+    }
+    
+    .sec1_tit{
+        font-family: "StencilStd", Helvetica;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+    
+        position: absolute;
+        top: 100px;
+        left: 0
+    }
+    
+    
+    .sec1_sub{
+        display: none;
+    }
+    
+    .sec1_bar{
+        display: none;
+    }
+    ul.sec1_conWrap{
+        padding-top: 160px;
+    }
+    
+    ul.sec1_conWrap li{    
+        padding-top: 0px;
+        width: 100%;
+        height: 136px;
+    
+        float: left;
+        box-sizing: border-box;
+    
+        color: white;
+        text-align: center;
+    
+        /* background-color: red; */
+    }
+
+
+    ul.sec1_conWrap li:nth-child(3){
+        padding-top: 0px;
+    }
+    ul.sec1_conWrap li:nth-child(4){
+        padding-top: 0px;
+    }
+    
+
+    .con_art1{
+        display: inline-block;
+        background: url(/TGIF/img/sec1_con1.png) no-repeat center center;
+        background-size: contain;
+        width: 56px;
+        height: 45px;
+
+        position: absolute;
+        top: 124px;
+        left: 0px;
+    }
+    .con_tit1{
+        position: absolute;
+        top: 160px;
+        left: 76px;
+    }
+    .con_txt1{
+        position: absolute;
+        top: 216px;
+        left: 76px;
+    }
+
+
+    
+    .con_art2{
+        display: inline-block;
+        background: url(/TGIF/img/sec1_con2.png) no-repeat center center;
+        background-size: contain;
+        width: 42px;
+        height: 61px;
+        position: absolute;
+        top: 248px;
+        left: 6px;
+    }
+    .con_tit2{
+        position: absolute;
+        top: 280px;
+        left: 76px;
+    }
+    .con_txt2{
+        position: absolute;
+        top: 336px;
+        left: 76px;
+    }
+
+    .con_art3{
+        display: inline-block;
+        background: url(/TGIF/img/sec1_con3.png) no-repeat center center;
+        background-size: contain;
+        width: 45px;
+        height: 57px;
+
+        position: absolute;
+        top: 372px;
+        left: 2px;
+    }
+    .con_tit3{
+        position: absolute;
+        top: 400px;
+        left: 76px;
+    }
+    .con_txt3{
+        position: absolute;
+        top: 456px;
+        left: 76px;
+    }
+   
+    .con_art4{
+        display: inline-block;
+        background: url(/TGIF/img/sec1_con4.png) no-repeat center center;
+        background-size: contain;
+        width: 40px;
+        height: 71px;
+
+        position: absolute;
+        top: 492px;
+        left: 4px;
+    }
+    .con_tit4{
+        position: absolute;
+        top: 520px;
+        left: 76px;
+    }
+    .con_txt4{
+        position: absolute;
+        top: 576px;
+        left: 76px;
+    }
+    
+    
+    /* ------------------------------title&text */
+    
+    .con_tit{
+        display: inline-block;
+        font-family: "StencilStd", Helvetica;
+        font-size: 16px;
+    }
+    
+    .con_txt{
+        display: block;
+        color: white;
+        font-size: 14px;
+        text-align: left;
+    }
+}

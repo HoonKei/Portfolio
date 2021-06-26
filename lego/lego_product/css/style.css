@@ -1,0 +1,363 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.clearfix{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* section left---------------------------- */
+
+.container{
+    margin: 0 auto;
+    width: 1398px;
+}
+.conwrap{
+    height: 940px;
+    background-color: white;
+    border: 1px solid #f4f4f4;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-collapse: collapse;   
+}
+.product_pic{
+    border-right: 1px solid #f4f4f4;
+    border-bottom: 1px solid #f4f4f4;
+
+    position: relative;
+    width: 926px;
+    height: 940px;
+    float: left;
+}
+
+/* 이미지 썸네일----------------------- */
+
+.image_thumb{
+    position: absolute;
+    top: 762px;
+    left: 118px;
+    /* 통과하게 하는 태그 */
+    pointer-events: none;
+    z-index: 999;
+}
+.image_thumb li{
+    float: left;
+    margin-right: 22px;
+}
+.image_thumb li:first-child{
+    margin-left: 2px;
+}
+
+/* 상품이미지 구현--------------------------------- */
+
+.swiper-container{
+    position: relative;
+    width: 926px;
+    height: 940px;
+}
+
+.swiper-wrapper{
+    position: absolute;
+    top: 100px;
+    left: 0px;
+}
+
+.swiper-slide{
+    width: 800px;
+    height: 600px;
+    text-align: center;
+}
+
+.swiper-slide.one{
+    background: url(../img/img_main.png) no-repeat center;
+    background-size: contain;
+}
+.swiper-slide.two{
+    background: url(../img/img_sub1.jpeg) no-repeat center;
+    background-size: contain;
+}
+.swiper-slide.three{
+    background: url(../img/img_sub2.jpeg) no-repeat center;
+    background-size: contain;
+}
+.swiper-slide.four{
+    background: url(../img/img_sub3.jpeg) no-repeat center;
+    background-size: contain;
+}
+.swiper-slide.five{
+    background: url(../img/img_sub4.jpeg) no-repeat center;
+    background-size: contain;
+}
+.swiper-slide.six{
+    background: url(../img/img_sub5.jpeg) no-repeat center;
+    background-size: contain;
+}
+
+
+/* 좌우버튼 조정 */
+.swiper-button-next{
+    position: absolute;
+    top:86%;
+    right: 64px;
+}
+.swiper-button-prev{
+    position: absolute;
+    top:86%;
+    left: 64px;
+}
+/* pagination 지정하기----------------------- */
+.swiper-pagination{
+    position: absolute;
+    top: 760px;
+    left: 118px;
+}
+.swiper-pagination-bullet{
+    background: url(../img/pagination.png);
+    background-size: contain;
+    border-radius: 0;
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+    margin: 0 9px !important;
+}
+.swiper-pagination-bullet-active{
+    background: url(../img/pagination_active.png) no-repeat center;
+    background-size: contain;
+    border-radius: 0;
+    opacity: 1;   
+}
+/* section right---------------------------- */
+.product_content{
+    position: relative;
+    width: 454px;
+    height: 940px;
+    float: right;
+}
+.rare{
+    width: 76px;
+    height: 24px;
+    background-color: #288FCF;
+    position: absolute;
+    left: 40px;
+    top: 91px;
+}
+.rare p{
+    display: block;
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    line-height: 23px;
+    letter-spacing: -0.32px;
+}
+.star{
+    position: absolute;
+    top: 93px;
+    left: 132px;
+}
+#star{
+    margin-left: -5px;
+}
+.brandimg{
+    background: url(../img/brand_starwars.png) no-repeat center;
+    width: 93px;
+    height: 40px;
+    position: absolute;
+    top: 120px;
+    left: 300px;
+}
+.title{
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -0.32px;
+    color: #2C2C2C;
+
+    position: absolute;
+    top: 121px;
+    left: 40px;
+}
+.sub_title{
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -0.32px;
+    color: #8B8B8B;
+
+    position: absolute;
+    top: 236px;
+    left: 40px;
+}
+.title_detail{
+    display: block;
+    width: 356px;
+
+    letter-spacing: -0.32px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2C2C2C;
+
+    position: absolute;
+    top: 268px;
+    left: 40px;
+}
+.hashtag{
+    position: absolute;
+    top: 392px;
+    left: 40px;
+}
+.hashtag p{
+    display: block;
+    float: left;
+    margin-right: 20px;
+
+    letter-spacing: -0.32px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #8B8B8B;
+}
+
+
+/* information--------------------- */
+
+.info1{
+    position: absolute;
+    top: 490px;
+    left: 40px;
+}
+.info2{
+    position: absolute;
+    top: 490px;
+    left: 184px;
+}
+.info3{
+    position: absolute;
+    top: 560px;
+    left: 40px;
+}
+.info4{
+    position: absolute;
+    top: 560px;
+    left: 184px;
+}
+
+.product_info h3{
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -0.32px;
+    color: #8B8B8B;
+}
+.product_info p{
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: -0.32px;
+    color: #2C2C2C;
+
+    margin-top: 6px;
+}
+
+
+
+
+/* sale--------------------- */
+
+.product_sale{
+    position: absolute;
+    top: 695px;
+    left: 40px;
+}
+
+.product_sale h3{
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -0.32px;
+    color: #8B8B8B;
+
+    margin-left: 6px;
+}
+
+.product_sale > p{
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -0.32px;
+    color: #2C2C2C;
+
+    margin-left: 6px;
+}
+
+.saleBtn{
+    margin-top: 20px;
+    width: 218px;
+    height: 58px;
+    background-color: #288FCF;
+    border-radius: 35px;
+}
+
+.saleBtn > p{
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -0.32px;
+    color: #FFFFFF;
+    line-height: 56px;
+    text-align: center;
+}
+
+.salesub{
+    position: absolute;
+    bottom: 17px;
+    right:-164px;
+}
+.salesub li{
+    float:left;
+    margin-right: 44px;
+}
+
+.salesub li a{
+    display: block;
+    font-size: 24px;
+    line-height: 24px;
+    color: #8B8B8B;
+}
+
+.product_detail{ 
+    position: relative;
+}
+
+.detailTitle{
+    border: 1px solid #f4f4f4;
+}
+
+.detailTitle h3{
+    margin: 20px 0 20px 261px;
+
+    font-family: "Noto Sans KR", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -0.32px;
+    color: #8B8B8B;
+}
+
+.product_detail{
+    margin-top: 0px;
+}
+
+

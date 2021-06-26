@@ -1,0 +1,182 @@
+
+/* ㅡㅡㅡㅡㅡㅡㅡㅡ 섹션 1 베스트상품 ㅡㅡㅡㅡㅡㅡㅡㅡ  */
+
+
+.section1_tit{
+    position: absolute;
+    top: 125px;
+    left: 261px;
+    width: 100%;
+}
+.section1_tit h2{
+    font-family: "Noto Sans KR";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: rgba(0,0,0,1);
+    letter-spacing: -0.2px; 
+}
+.section1_tit p{
+    position: absolute;
+    top: 18px;
+    left: 164px;
+    font-size: 15px;
+}
+
+
+
+
+
+/* 섹션 슬라이드 구현하기 */
+
+.container{
+	width:1420px;
+	justify-content: center;
+	align-items: center;
+    position: absolute;
+    top: 104px;
+    left: 256px;
+}
+
+.box{
+	width: 336px;
+	height: 384px;
+	background-color:white;
+	border-radius: 12px;
+	box-shadow: 0px 8px 12px rgba(40, 143, 207, 0.122);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+	margin: 100px 0px 10px 8px;
+    position: relative;
+}
+
+.bestitem{
+    width: 270px;
+	height: auto;
+	max-height: 100%;
+	max-width: 100%;
+    margin-top: 70px;
+}
+
+.boxnumber{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45px;
+    height: 45px;
+    background-color: rgba(40,143,207,1);;
+    border-radius: 12px 0 0 0;
+}
+
+.boxnumber p{
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 44px;
+    text-align: center;
+}
+
+
+
+
+.detail{
+margin-top: 18px;
+margin-left: 20px;
+}
+
+.detail_tit{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.26px;
+    color: rgba(44, 44, 44, 1);
+}
+
+.detail_sub{
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: -0.26px;
+    color: rgba(139, 139, 139, 1);
+    padding-top: 8px;
+}
+
+.detail_sub_1{
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: -0.26px;
+    color: rgba(139, 139, 139, 1);
+    padding-top: 30px;
+}
+
+.detail_price{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(255,20,30,1);
+    padding-top: 10px;
+} 
+
+.itemstate{
+    position: absolute;
+    bottom: 0px;
+    margin-left: 205px;
+}
+
+
+
+.box:hover{
+	transform-style: preserve-3d;
+	transform: scale(1.03);
+	transition: all ease 0.3s;
+}
+
+/* 버튼 */
+.lSPrev{
+    background-image: url(/lego/img/slideBtnL.png) !important;
+    background-position: 0 0 !important;
+    left: 1250px !important;
+}
+
+.lSNext{
+    background-image: url(/lego/img/slideBtnR.png) !important;
+    background-position: 0 0 !important;
+    right: 18px !important;
+}
+
+/* 버튼 조절하기 */
+.lSAction > a{
+    width: 62px !important;
+    height: 62px !important;
+    top: 5% !important;
+    opacity: 1 !important;
+}
+
+
+/* 슬라이드의 높이 설정하기*/
+.cs-hidden{
+	height: 620px !important;
+}
+
+/* 슬라이드 옆으로 댕겨주기
+.lSSlideOuter{
+    padding-left: 2px !important;
+} */
+
+/*--responsive for mobile phone--*/
+/* @media(max-width:720px){
+	.box{
+		width: 94%;
+		height: 500px;
+	}
+	.model{
+		height:250px;
+	}
+	.details p{
+		font-size: 16px;
+		width: 250px;
+	}
+	
+} */
+

@@ -1,0 +1,30 @@
+/* ㅡㅡㅡㅡㅡㅡㅡㅡ 섹션 2 배너 ㅡㅡㅡㅡㅡㅡㅡㅡ  */
+
+
+.vipBanner{
+    display: block;
+    position: absolute;
+    top: 840px;
+}
+
+.bannerWrap{
+    position: relative;
+    width: 100%;
+}
+
+.vip_people{
+    position: absolute;
+    bottom: 20px;
+    right: 10%;
+}
+
+.vip_text{
+    position: absolute;
+    left: 380px;
+    top: 20%;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    color: rgba(255,255,255,1);
+    letter-spacing: -0.48px;
+}

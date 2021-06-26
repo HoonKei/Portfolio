@@ -1,0 +1,52 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+
+@font-face{
+    src: url(/lego/fonts/CookieRun\ Bold.ttf);
+    font-family: "CookieRun";
+}
+
+/*    Reset CSS  */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,video,img,svg
+{ margin:0;  padding:0;}
+table {border-collapse:collapse; border-spacing:0;}
+fieldset,img {border:0;}
+address,caption,cite,code,dfn,var {font-style:normal; font-weight:normal; }
+ol,ul {list-style: none; }
+caption,th { text-align:left;}
+h1,h2,h3,h4,h5,h6 { font-size: 100%; font-weight:normal;}
+q:before,q:after {content:"";}
+abbr, acronym {border:0;}
+a{outline:1;   text-decoration:none; color:#666;}
+em { font-style:normal; }
+body { font: 12px /1.4 "Noto Sans KR", "맑은 고딕", sans-serif; color:#666; overflow-x:hidden;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+
+
+
+.clearfix{
+    content: '';
+    display: block;
+    clear: both;
+}
+.contentsWrap{
+    position: absolute;
+    top: 1300px;
+    width: 100%;
+    z-index: 99;
+}
+.WhiteBg {
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0px 0px 48px rgba(1, 1, 1, 0.161);
+    height: 4660px;
+    width:  100%;
+
+    position: relative;
+  }

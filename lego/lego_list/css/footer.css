@@ -1,0 +1,157 @@
+
+
+
+/* ㅡㅡㅡㅡㅡㅡㅡㅡ 푸터 ㅡㅡㅡㅡㅡㅡㅡㅡ  */
+
+
+
+.footerWrap{
+    position: absolute;
+    top: 2960px;
+}
+.footerbg{
+    width: 1920px;
+    height: 450px;
+    background-image: url(../img/footerbg1.png);
+    background-repeat: repeat-x;
+    background-color: black;
+
+    position: relative;
+}
+.notice{
+    position: absolute;
+    top: 21px;
+    left: 261px;
+}
+.notice p{
+    float: left;
+   
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+    color: rgba(44,44,44,1);
+}
+
+.socialBtn{
+    position: absolute;
+    top: 0px;
+    right: 261px;
+
+}
+
+.socialBtn li{
+    float: left;
+    width: 42px;
+    margin: 12px;
+}
+
+
+
+/* ㅡㅡㅡㅡㅡㅡㅡㅡ 푸터 2단 ㅡㅡㅡㅡㅡㅡㅡㅡ  */
+
+.footer_2{
+    font-family: "Noto Sans KR";
+    font-style: normal;
+    font-weight: normal;
+    color: rgba(255,255,255,1);
+}
+.footerNumber{
+    position: absolute;
+    top: 100px;
+    left: 261px;
+}
+.footerNumber p:first-child{
+    font-size: 13px;
+    line-height: 16px;
+    padding-left: 2px;
+}
+.footerNumber p:nth-child(2){
+    font-size: 30px;
+}
+.footerNumber p:nth-child(3){
+    font-size: 12px;
+    padding-top: 6px;
+    padding-left: 2px;
+}
+
+
+
+.footerQA{
+    position: absolute;
+    top: 100px;
+    left: 615px;
+}
+.footerQA p:first-child{
+    font-size: 13px;
+    line-height: 16px;
+}
+.footerQA p:nth-child(2){
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+
+    padding-top: 6px;
+}
+.footerQA p:nth-child(4){
+    font-size: 12px;
+    padding-top: 3px;
+}
+
+
+.footerQA_btn{
+    position: absolute;
+    top: 100px;
+    right: 261px;
+}
+.footerQA_btn a{
+    display: inline-block;
+    padding-right: 58px;
+}
+.footerQA_btn a:last-child{
+    padding-right: 0;
+}
+
+
+
+/* ㅡㅡㅡㅡㅡㅡㅡㅡ 푸터 3단 ㅡㅡㅡㅡㅡㅡㅡㅡ  */
+
+.footer_3{
+    font-family: "Noto Sans KR";
+    font-style: normal;
+    font-weight: normal;
+    color: rgba(139,139,139,1);
+}
+
+.footerLOGO{
+    position: absolute;
+    top: 256px;
+    left: 261px;
+}
+.footerDetail{
+    position: absolute;
+    top: 256px;
+    left: 380px;
+    font-size: 12px;
+}
+.footerDetail_2{
+    position: absolute;
+    top: 284px;
+    left: 380px;
+    font-size: 11px;
+}
+.footerDetail_3{
+    position: absolute;
+    top: 308px;
+    left: 380px;
+    font-size: 12px;
+}
+.footerDetail_4{
+    position: absolute;
+    top: 304px;
+    left: 824px;
+}
+.footerDetail_5{
+    position: absolute;
+    top: 344px;
+    left: 380px;
+}

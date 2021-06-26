@@ -1,0 +1,115 @@
+header{
+    position: relative;
+    width: 100%;
+    height: 84px;
+    background-color: black;
+}
+header ul{
+    font-family: 'Gotham';
+    font-weight: bold;
+    font-size: 16px;
+}
+header h1 a{
+    display: inline-block;
+    background: url(../img/logo.png) no-repeat center;
+    width: 130px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    text-indent: -9999px;
+}
+header ul li{
+    float: left;
+    margin-right: 40px;
+}
+header ul li a{
+    display: block;
+    color: white;
+}
+header ul li a:hover{
+    color: red;
+    font-weight: bold;
+}
+.h_left{
+    position: absolute;
+    left: 5%;
+    top: 32px;
+}
+.h_right{
+    position: absolute;
+    right: 5%;
+    top: 32px;
+}
+.h_right i{
+    font-size: 24px;
+}
+
+@media all and (max-width:1132px) {
+    header{
+        height: 122px;
+    }
+    header h1 a{
+        position: absolute;
+        top: 28%;
+        left: 50%;
+        transform: translate(-50%,-30%);
+    }
+    .h_left{
+        position: absolute;
+        top: 80px;
+    }
+    .h_right{
+        position: absolute; 
+        top: 80px;
+    }
+    header ul li{
+        float: left;
+    }
+}
+
+
+@media all and (max-width:860px) {
+    header{
+        height: 76px;
+        position: fixed;
+        z-index: 999;
+    }
+    header h1 a{
+        position: absolute;
+        left: 12%;
+        top: 50%;
+        transform: translate(-12%,-50%);
+        
+        background: url(../img/logo.png) no-repeat center;
+        background-size: contain;
+        width: 104px;
+        height: 40px;
+    }
+    .h_left{
+        display: none;
+    }
+    .h_right{
+        display: none;
+    }
+    .headerBtn{
+        background: url(../img/headerBtn.png) no-repeat center;
+        width: 48px;
+        height: 48px;
+
+        position: absolute;
+        right: 8%;
+        top: 50%;
+        transform: translate(-8%,-50%);
+    }
+
+}
+
+
+
+
+
+
+
