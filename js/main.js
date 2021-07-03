@@ -17,7 +17,6 @@ $(function(){
     });
 });
 
-
 $(document).ready(function() {
     $(".sec2Wrap").lightSlider({
         loop:true,

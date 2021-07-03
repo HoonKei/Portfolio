@@ -79,8 +79,8 @@
 
 .archive h2{
     position: absolute;
-    top: 18%;
-    left: 15%;
+    top: 19%;
+    left: 16%;
     transform: translateX(-50%);
     transform: rotate(-24deg);
     z-index: 999;
@@ -88,7 +88,7 @@
 
 
 ul.sec2Wrap .box{
-    filter: drop-shadow(0px 2px 12px rgba(223, 223, 223, 1));    
+    filter: drop-shadow(0px 2px 8px rgba(223, 223, 223, 1));    
     transition: all ease-in-out 0.05s;
 }
 
@@ -106,6 +106,7 @@ ul.sec2Wrap .box:hover{
 .lSSlideWrapper:after{ position: absolute; bottom:0; left:0;}
 
 .lslide{height:150px !important;}
+
 
 
 /* section3 ----------------------------------------  */
@@ -137,7 +138,7 @@ ul.sec3Text li img{
 
     text-align: center;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 400;
     letter-spacing: -0.05em;
     line-height: 1.8;
     color: #202020;
